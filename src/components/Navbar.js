@@ -1,10 +1,12 @@
 import React from "react"
 import App from "../App";
-import logo from "./logo.png"
+import logo from "../logo.png"
 import css from "../App.css"
 // fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import link from "react-router-dom"
+import Aboutme from "./Aboutme";
 
 export const Navbar = () => {
     return (
