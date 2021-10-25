@@ -127,6 +127,32 @@ nav ul li {
   }
 }
 
+/* Portfolio */
+
+.portfolio-wrapper{
+  background: #152544;
+  padding: 3rem 0;
+}
+
+.portfolio-img{
+  width: 15rem;
+  border: 1px solid var(--primary-blue);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box{
+  position: relative;
+  background: var(--primary-dark);
+  width: 16rem;
+  height: 11rem;
+  top:0;
+  border: 1px solid var(--primary-blue)
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
