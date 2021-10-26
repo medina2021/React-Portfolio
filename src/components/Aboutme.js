@@ -4,6 +4,7 @@ import author from "../EverMedinaPortrait.jpg"
 
 const Aboutme = () => {
     return (
+      <section id="aboutMe">
         <div className="container py-5">
           <div className="row">
            <div className ="col-lg-6 col-xm-12">
@@ -27,6 +28,7 @@ const Aboutme = () => {
            </div>
           </div>
         </div>
+        </section>
     )
   }
 export default Aboutme;

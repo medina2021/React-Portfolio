@@ -9,6 +9,7 @@ import spaceOdyssey from "../images/SpaceOdyssey.PNG";
 const Portfolio = () => {
 
     return (
+        <section id="portfolio">
        <div className="portfolio-wrapper">
            <div className="container">
                <h1 className="text-uppercase text-center py-5">Portfolio</h1>
@@ -35,6 +36,7 @@ const Portfolio = () => {
                    </div>
                    </div>
            </div>
+    </section>
     )
 }
 export default Portfolio;

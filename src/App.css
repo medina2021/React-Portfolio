@@ -12,7 +12,7 @@ body{
 }
 /* Navbar */
 .logo{
-  width: 16.25rem;
+  width: 14rem;
 }
 nav a.nav-link {
   font-size: .8rem;
@@ -95,11 +95,12 @@ nav ul li {
 
 /* Header Main Offer Button */
 .btn-main-offer{
-  border: 1px solid var(--primary-hover-red);
+  border: 1px solid var(--primary-blue);
   text-transform: uppercase;
   border-radius:0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  background-color: transparent;
+  color: var(--primary-blue);
   margin: 2rem;
 }
 
@@ -166,6 +167,70 @@ nav ul li {
 
 .portfolio-image-box:hover .overflow{
   opacity:60%;
+}
+
+
+/* contacts */
+.contacts{
+  background: var(--primary-dark);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-blue);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p{
+  font-size: 1.2rem;
+}
+
+/* Inputs */
+.contacts input, .contacts textarea{
+  width:100%;
+  box-sizing: border-box;
+  background:none;
+  resize: none;
+  border:0;
+  border-bottom: 0.125rem solid grey;
+  border-radius: 0;
+  color:black;
+  outline: 0,!important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left:0 !important;
+}
+
+.contacts .container{
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus{
+  background:transparent;
+  color: var(--primary-blue);
+  border-bottom: 0.125rem solid grey;
+}
+
+.contacts textarea{
+  height: 12.4rem !important;
+
+}
+.contact-btn {
+  margin:1rem 0 0 0;
+  width:100%;
+  background: none;
+
+}
+
+/* Media */
+@media(max-width:768) {
+  .contacts .container{
+    padding: 0 1rem;
+  }
+  .contacts p{
+    padding: 0 0.4rem;
+  }
 }
 
 .App {

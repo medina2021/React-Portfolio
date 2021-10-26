@@ -20,16 +20,13 @@ export const Navbar = () => {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#aboutMe">about Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">about Me</a>
+        <a class="nav-link" href="#portfolio">portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">contacts</a>
+        <a class="nav-link" href="#contacts">contact</a>
       </li>
     </ul>
   </div>
