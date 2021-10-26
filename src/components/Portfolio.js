@@ -1,11 +1,13 @@
 import React from 'react';
-import eCommerce from "../images/13-orm-homework-demo-02.gif";
+import eCommerce from "../images/commerce.PNG";
 import whatsCookin from "../images/WhatsCookin.png";
-import creativeWeb from "../images/creativeWeb.jpg";
+import creativeWeb from "../images/create.jpg";
 import spaceOdyssey from "../images/SpaceOdyssey.PNG";
 
 
+
 const Portfolio = () => {
+
     return (
        <div className="portfolio-wrapper">
            <div className="container">
@@ -13,18 +15,22 @@ const Portfolio = () => {
                <div className="image-box-wrapper row justify-content-center">
                    <div className="portfolio-image-box">
                    <img className="portfolio-img" src={eCommerce} alt="e-commerce"/>
+                   <div className="overflow"></div>
                    </div>
                    {/*  */}
                    <div className="portfolio-image-box">
                    <img className="portfolio-img" src={whatsCookin} alt="whats-cookin"/>
+                   <div className="overflow"></div>
                    </div>
                    {/*  */}
                    <div className="portfolio-image-box">
                    <img className="portfolio-img" src={creativeWeb} alt="creative-web"/>
+                   <div className="overflow"></div>
                    </div>
                    {/*  */}
                    <div className="portfolio-image-box">
-                   <img className="portfolio-img" src={spaceOdyssey} alt="sapce-odyssey"/>
+                   <img className="portfolio-img" src={spaceOdyssey} alt="space-odyssey"/>
+                   <div className="overflow"></div>
                    </div>
                    </div>
                    </div>
